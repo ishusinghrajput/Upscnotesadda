@@ -1,41 +1,18 @@
 body{
     margin: 0;
 padding: 0;
-font-family: Century Gothic;
+font-family: 'Shippori Antique B1', sans-serif;
 background: rgb(248, 244, 244);
 background-size: cover;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 
 html{
     scroll-behavior: smooth;
 }
 
-@keyframes slideInLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-}
 
-@keyframes slideInRight {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-}
-
-@keyframes slidefromup {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(0);
-    }
-}
 
 .toplogo{
     display: flex;
@@ -43,8 +20,8 @@ html{
 }
 
 .logo{
-    height: 70px;
-    width: auto;
+    margin-top: 10px;
+    width: 300px;
     padding: 10px;
 }
 
