@@ -451,6 +451,7 @@ html{
     height: auto;
     margin-top: 15px;
     size-adjust: 100%;
+    max-width: 350px;
 }
 
 
